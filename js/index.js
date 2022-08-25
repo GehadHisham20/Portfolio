@@ -36,7 +36,7 @@ let myProjects= [{
 {
     image:"images/bookmarker.PNG",
     title:"Bookmarker",
-    desc:"Bookmark links to save it.. you can also search, update, delete or visit the link of bookmark",
+    desc:"Bookmark links to save it.. you can also search, update, delete or visit",
     tags:"html, css, bootstrap, css, and JS",
     githubLink:"https://github.com/GehadHisham20/Bookmarker",
     websiteLink:"https://gehadhisham20.github.io/Bookmarker/"
@@ -44,7 +44,7 @@ let myProjects= [{
 {
     image:"images/weather.PNG",
     title:"Weather",
-    desc:`It is a RWD portfolio <br/>Display the weather of the current and the two days after it.`,
+    desc:`RWD portfolio to display the weather of the current and the 2 days after it.`,
     tags:"html, css, bootstrap, css, and JS",
     githubLink:"https://github.com/GehadHisham20/Weather-App",
     websiteLink:"https://youtu.be/Oo99JoxwuJM"
@@ -57,9 +57,9 @@ function displayProjects(){
         <div class="project-card">
             <img src=${myProjects[i].image} class="img-fluid">
             <div class="layout">
-                <h5>${myProjects[i].title}</h5>
-                <p>${myProjects[i].desc}</p> 
-                <p><span>Tags: </span>${myProjects[i].tags}</p>
+                <h5 class="">${myProjects[i].title}</h5>
+                <p class="m-md-0">${myProjects[i].desc}</p> 
+                <p class="d-md-block d-none"><span>Tags: </span>${myProjects[i].tags}</p>
                 <a href="${myProjects[i].githubLink}" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="${myProjects[i].websiteLink}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
