@@ -1,0 +1,250 @@
+:root {
+  --color1:#BEA99D;
+  --color2:#967865;
+  --color3:#E5DCD7;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h5 {
+  font-family: 'Aboreto', cursive;
+  font-weight: 900;
+}
+
+.bg-color {
+  background-color: var(--color3);
+}
+
+.gray-text {
+  color: #babcbc;
+}
+
+.star-color {
+  color: var(--color2);
+}
+
+.nav {
+  position: fixed;
+  top: 30%;
+  right: 2%;
+  background-color: var(--color2);
+  z-index: 99;
+  text-align: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0 !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav li {
+  padding: 1em 2em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav li:hover {
+  background-color: var(--color3);
+}
+
+.nav li:hover a {
+  color: var(--color2);
+}
+
+#home {
+  background-image: url(../images/home1.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#home .hi::after {
+  content: "";
+  -webkit-animation: dot 3s infinite linear;
+          animation: dot 3s infinite linear;
+}
+
+#home h1 {
+  font-weight: 900;
+  font-size: 4rem;
+  color: #F9F2ED;
+}
+
+@-webkit-keyframes dot {
+  30% {
+    content: ".";
+  }
+  60% {
+    content: '..';
+  }
+  90% {
+    content: '...';
+  }
+}
+
+@keyframes dot {
+  30% {
+    content: ".";
+  }
+  60% {
+    content: '..';
+  }
+  90% {
+    content: '...';
+  }
+}
+
+#profile .myimg {
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+#profile .circle-around {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
+  -webkit-animation: animated-circle 5s infinite linear;
+          animation: animated-circle 5s infinite linear;
+  border-color: var(--color1);
+  border-style: solid;
+  border-width: 0;
+}
+
+#profile .bg-color {
+  display: none;
+}
+
+@-webkit-keyframes animated-circle {
+  0% {
+    border-top-width: 0px;
+    border-right-width: 4px;
+  }
+  20% {
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+  }
+  40% {
+    border-bottom-width: 0px;
+    border-left-width: 4px;
+  }
+  60% {
+    border-left-width: 0px;
+    border-top-width: 4px;
+  }
+  80% {
+    border-top-width: 0px;
+  }
+}
+
+@keyframes animated-circle {
+  0% {
+    border-top-width: 0px;
+    border-right-width: 4px;
+  }
+  20% {
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+  }
+  40% {
+    border-bottom-width: 0px;
+    border-left-width: 4px;
+  }
+  60% {
+    border-left-width: 0px;
+    border-top-width: 4px;
+  }
+  80% {
+    border-top-width: 0px;
+  }
+}
+
+.project-card {
+  background-color: var(--color1);
+  text-align: center;
+  position: relative;
+  display: none;
+}
+
+.project-card .layout {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(190, 169, 157, 0.9);
+  padding: 2%;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.project-card .layout a {
+  color: #000;
+  padding: 0 1em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.project-card .layout a:hover {
+  display: inline-block;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.project-card:hover .layout {
+  opacity: 1;
+}
+
+.contact-list a {
+  color: #000;
+}
+
+.contact-list li {
+  border-radius: 50%;
+  padding: 0.18em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+}
+
+.contact-list li:hover {
+  border: 2px solid var(--color1);
+}
+
+.contact-list li:hover i {
+  background-color: transparent;
+}
+
+.contact-list i {
+  background-color: var(--color1);
+  padding: 1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contact-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 2em;
+          column-gap: 2em;
+}
+/*# sourceMappingURL=index.css.map */
