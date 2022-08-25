@@ -57,7 +57,7 @@ function displayProjects(){
         <div class="project-card">
             <img src=${myProjects[i].image} class="img-fluid">
             <div class="layout">
-                <h5 class="">${myProjects[i].title}</h5>
+                <h5>${myProjects[i].title}</h5>
                 <p class="m-md-0">${myProjects[i].desc}</p> 
                 <p class="d-md-block d-none"><span>Tags: </span>${myProjects[i].tags}</p>
                 <a href="${myProjects[i].githubLink}" target="_blank"><i class="fa-brands fa-github"></i></a>
