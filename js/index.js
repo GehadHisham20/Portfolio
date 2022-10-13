@@ -10,6 +10,14 @@ $(window).scroll(function(){
 })
 
 let myProjects= [{
+        image:"images/note.PNG",
+        title:"Notes App",
+        desc:`RWD React app to create, updaye, delete notes`,
+        tags:"React, bootstrap, scss, Node.js, mongoose",
+        githubLink:"https://github.com/GehadHisham20/Note-App",
+        websiteLink:"https://youtu.be/SExpDByol3U"
+    },
+    {
     image:"images/angora.PNG",
     title:"Angora",
     desc:"It is a RWD portfolio",
@@ -45,7 +53,7 @@ let myProjects= [{
     image:"images/weather.PNG",
     title:"Weather",
     desc:`RWD portfolio to display the weather of the current and the 2 days after it.`,
-    tags:"html, css, bootstrap, css, and JS",
+    tags:"html, css, bootstrap, scss, and JS",
     githubLink:"https://github.com/GehadHisham20/Weather-App",
     websiteLink:"https://youtu.be/Oo99JoxwuJM"
 }];

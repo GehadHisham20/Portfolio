@@ -104,6 +104,10 @@ h1, h2, h5 {
   }
 }
 
+#profile {
+  height: 100vh;
+}
+
 #profile .myimg {
   padding: 0.5em;
   border-radius: 50%;
