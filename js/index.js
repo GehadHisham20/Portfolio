@@ -45,9 +45,17 @@ let myProjects= [{
     image:"images/bookmarker.PNG",
     title:"Bookmarker",
     desc:"Bookmark links to save it.. you can also search, update, delete or visit",
-    tags:"html, css, bootstrap, css, and JS",
+    tags:"html, css, bootstrap, scss, and JS",
     githubLink:"https://github.com/GehadHisham20/Bookmarker",
     websiteLink:"https://gehadhisham20.github.io/Bookmarker/"
+},
+{
+    image:"images/sanitary.PNG",
+    title:"Sanitary",
+    desc:"Home page of sanitary ware website",
+    tags:"html, scss, and bootstrap",
+    githubLink:"https://github.com/GehadHisham20/sanitary-home-page",
+    websiteLink:"https://gehadhisham20.github.io/sanitary-home-page/"
 },
 {
     image:"images/weather.PNG",
