@@ -10,9 +10,17 @@ $(window).scroll(function () {
 
 let myProjects = [
   {
+    image: "images/book.PNG",
+    title: "Book App",
+    desc: `RWD React app to borrow books and admin control`,
+    tags: "React, bootstrap, scss, Node.js, mongoose",
+    githubLink: "https://github.com/GehadHisham20/book-app",
+    websiteLink: "https://my-bookish-app.herokuapp.com/",
+  },
+  {
     image: "images/note.PNG",
     title: "Notes App",
-    desc: `RWD React app to create, updaye, delete notes`,
+    desc: `RWD React app to create, update, delete notes`,
     tags: "React, bootstrap, scss, Node.js, mongoose",
     githubLink: "https://github.com/GehadHisham20/Note-App",
     websiteLink: "https://my-note-app-demo.herokuapp.com/",
